@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+    
+        int myInt = Integer.parseInt(scanner.nextLine());
+
+       
+        double myDouble = Double.parseDouble(scanner.nextLine());
+
+       
+        String myString = scanner.nextLine();
+
+        
+        System.out.println("String: " + myString);
+        System.out.println("Double: " + myDouble);
+        System.out.println("Int: " + myInt);
+
+        scanner.close(); 
+    }
+}

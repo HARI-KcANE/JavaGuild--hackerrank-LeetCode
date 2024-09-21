@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scanner = new Scanner(System.in);
+        
+        String firstString = scanner.next();
+        int firstInt = scanner.nextInt(); 
+         
+        
+        String secondString = scanner.next();
+        int secondInt = scanner.nextInt();
+         
+        
+        String thirdString = scanner.next();
+        int thirdInt = scanner.nextInt();
+         
+        
+        
+        System.out.print("================================\n");
+        // left justify strings by 15 and pad integers to 3 digits with a '0'
+        System.out.printf("%-15s%03d%n%-15s%03d%n%-15s%03d%n", firstString, firstInt, secondString,         secondInt, thirdString, thirdInt);
+        System.out.print("================================");
+         System.out.flush();
+    }
+}
